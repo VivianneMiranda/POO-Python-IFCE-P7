@@ -1,0 +1,64 @@
+
+<!DOCTYPE HTML>  
+<html lang="pt-br"> 
+    <head>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" type="text/css" href="estilo.css">
+    </head>
+</style>
+<body>
+    <br><br>
+    <div id="container1">
+        <h1>RESERVA  DE  DECK</h1>
+    </div>
+    <div id="container">
+
+        <form action="inserirNET.php">
+
+
+            <br>
+            <div> 
+                <input type="text" name="txNome" placeholder="Digite seu nome" required>
+            </div>
+            <div>
+                <input type="text" name="txApt" placeholder="Digite n° do seu apartamento" required>
+            </div>
+            <div>
+                <select name="Dia" >
+                <option value="ter">Terça-feira</option>
+                <option value="qua">Quarta-feira</option>
+                <option value="qui">Quinta-feira</option>
+                <option value="sex">Sexta-Feira</option>
+                <option value="sab">Sábado</option>
+                <option value="dom">Domingo</option>
+                </select> 
+            </div>
+            <div>
+                <select name="Horario">
+                <option value="8">08h00 - 9h30</option>
+                <option value="10">10h00 - 11h30</option>
+                <option value="12">12h00 - 13h30</option>
+                <option value="14">14h00 - 15h30</option>
+                <option value="16">16h00 - 17h30</option>
+                <option value="18">18h00 - 19h30</option>
+                </select> 
+            </div>
+            <div>
+                <input class="submit" type="submit" value="Reservar">
+                
+            </div>
+
+        </form>      
+        <button onclick="window.location.href ='consultar.php'" class="submit">Consultar</button><br><br><br>
+
+        
+
+    </div>
+
+
+</body>
+<div id="container2">
+    <h4>Vivianne Chaves e Paulo Victor.
+    <button onclick="window.location.href ='TrabalhoFinal.rar'" download="FormHtmlPhp.rar" color= #f79300 >Download do Código</button></h4>
+</div>
+</html>
